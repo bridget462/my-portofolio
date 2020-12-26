@@ -168,13 +168,16 @@
               <div>
                 <p class="mb-4">
                   End to end deep neural network classifier to distinguish 120 dog breed based on the photo. Over 20K+ images are imported from the Kaggle dataset and used for training. The model is transferred from pre-trained MobileNet V2 and customized for the problem.
+                  
+                  To visualize which portion of the image the computer is focusing, each pixels gradient based contribution for final prediction is calculated.  
+
                 </p>
               </div>
-              <a target="_blank" class="cta-btn cta-btn--hero" href="https://colab.research.google.com/drive/1h8wYsRWfz7PY2qUA0HKGhOT5ZDfVkwFe?usp=sharing">
-                Post Process
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://colab.research.google.com/drive/1SHYzy3C8ufBvgqj_ijp_YsLP1BZdfFlk?usp=sharing">
+                Visualization
               </a>
               <a target="_blank" class="cta-btn text-color-main" href="https://colab.research.google.com/drive/1HbCTFNtt2aEEOM2ahQLxUFZlb_X2QsBn?usp=sharing">
-                Source Code
+                Model
               </a>
             </div>
           </div>
@@ -183,6 +186,12 @@
               <a href="https://colab.research.google.com/drive/1HbCTFNtt2aEEOM2ahQLxUFZlb_X2QsBn?usp=sharing" target="_blank">
                 <div data-tilt class="thumbnail rounded">
                   <img class="img-fluid" src="./assets/gifs/dog-vision-demo.gif" />
+                </div>
+                <div>
+                  <pre></pre>
+                </div>
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/gifs/dog-saliency-vision.gif" />
                 </div>
               </a>
             </div>
